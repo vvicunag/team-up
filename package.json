@@ -1,0 +1,23 @@
+{
+  "name": "team-up-packages",
+  "version": "1.0.0",
+  "description": "A customizable profile generator for your teammates!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvicunag/team-up.git"
+  },
+  "author": "vvicunag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vvicunag/team-up/issues"
+  },
+  "homepage": "https://github.com/vvicunag/team-up#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "jest": "^27.3.1"
+  }
+}
