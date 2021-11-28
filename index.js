@@ -1,8 +1,10 @@
 const inquirer = require("inquirer"); 
+const fs = require("fs");
 const Employee = require("./lib/employee");
 const Engineer = require("./lib/engineer");
 const Intern = require("./lib/intern");
 const Manager = require("./lib/manager");
+const generateHTML = require("./dist/render-profiles"); 
 const engineers = [];
 const interns = [];
 const managers = [];
@@ -59,8 +61,11 @@ const initialize = () => {
                     getManagerData(employeeData);
                 }
            }
-        )};
-    }
+        )} 
+        else {
+            generateHTML(engineers, interns, managers)
+        }
+    }   
 )};
 
 getEngineerData = (employeeData) => {
@@ -147,4 +152,3 @@ generateManager = (employeeData) => {
 
 // Initialize app
 initialize();
-
