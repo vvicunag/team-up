@@ -54,7 +54,7 @@ const initialize = () => {
                 if(employeeData.employeeRole === "Engineer") {
                     getEngineerData(employeeData);
                 }
-                else if(employeeData.employeeRole === "Student") {
+                else if(employeeData.employeeRole === "Intern") {
                     getInternData(employeeData);
                 }
                 else {
@@ -152,3 +152,6 @@ generateManager = (employeeData) => {
 
 // Initialize app
 initialize();
+
+
+module.exports = {engineers, interns, managers}; 
