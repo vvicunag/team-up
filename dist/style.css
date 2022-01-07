@@ -1,31 +1,37 @@
+main {
+  display: flex;
+  justify-content: space-around;
+  margin: 10%;
+}
+
 .card-container {
-    width: 300px;
-    height: 350px;
- 
-    background-color: rgb(209, 209, 209);
-    border-radius: 15px;
-    box-shadow: 5px 5px gray ;
-    padding: 15px;
+  width: 300px;
+  height: 350px;
+
+  background-color: rgb(209, 209, 209);
+  border-radius: 15px;
+  box-shadow: 5px 5px gray;
+  padding: 15px;
 }
 
 .card-header {
-    background-color: rgb(0, 71, 138);
-    color: white;
-    text-align: center;
-    box-shadow: 5px 5px gray ;
-    border-radius: 5px;
+  background-color: rgb(0, 71, 138);
+  color: white;
+  text-align: center;
+  box-shadow: 5px 5px gray;
+  border-radius: 5px;
 }
 
 .card-title {
-    padding: 6px;
+  padding: 6px;
 }
 
 .card-info {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-detail {
-    padding: 15px;
-    font-size: 15;
+  padding: 15px;
+  font-size: 15;
 }
